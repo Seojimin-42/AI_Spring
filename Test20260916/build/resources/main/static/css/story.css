@@ -1,0 +1,82 @@
+/* 전체 페이지 */
+body {
+    margin: 0;
+    padding: 40px 20px;
+
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ed;
+    color: #333;
+
+    text-align: center;
+}
+
+
+/* 제목 */
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+
+/* 설명 */
+p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+
+/* 입력 영역 */
+#topic {
+    width: 400px;
+    padding: 12px 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* 버튼 */
+#storyButton {
+    margin-left: 8px;
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #6b5b4b;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* 버튼에 마우스를 올렸을 때 */
+#storyButton:hover {
+    opacity: 0.85;
+}
+
+
+/* 결과 영역 */
+#storyResult {
+    width: 700px;
+    min-height: 250px;
+
+    margin: 30px auto 0;
+    padding: 30px;
+
+    background-color: white;
+
+    border: 1px solid #e0d8ce;
+    border-radius: 12px;
+
+    box-sizing: border-box;
+
+    text-align: left;
+    line-height: 1.8;
+
+    white-space: pre-wrap;
+}

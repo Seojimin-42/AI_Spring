@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+p {
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#ingredientInput {
+    width: 400px;
+    padding: 13px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#ingredientInput:focus {
+    border-color: #d89b5b;
+}
+
+#recipeButton {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d88945;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#recipeButton:hover {
+    opacity: 0.85;
+}
+
+h2 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+#recipeResult {
+    width: 700px;
+    min-height: 250px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #eadfd3;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+    text-align: left;
+    line-height: 1.8;
+
+    /* AI가 줄바꿈한 내용을 그대로 보여주기 */
+    white-space: pre-wrap;
+
+    /* 긴 단어 때문에 화면이 넘치는 것을 방지 */
+    overflow-wrap: break-word;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}

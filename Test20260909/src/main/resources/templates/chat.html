@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>AI Chat</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <h1>
+        <a th:href="@{/ai/search}">AI Chat</a>
+    </h1>
+
+    <form class="search-form">
+        <input
+            type="text"
+            name="keyword"
+            placeholder="검색어를 입력하세요."
+            class="search-input">
+
+        <button type="submit" class="search-button">검색</button>
+    </form>
+
+        <div class="answer">
+            <p></p>
+        </div>
+
+</div>
+
+<script th:src="@{/js/chat.js}"></script>
+
+</body>
+</html>
