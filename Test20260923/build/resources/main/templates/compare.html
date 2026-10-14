@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>로컬 모델 비교기</title>
+
+    <link rel="stylesheet" href="/css/compare.css">
+    <script src="/js/compare.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <!-- 페이지 제목 -->
+    <header>
+        <h1>🤖 로컬 모델 비교기</h1>
+        <p>Ollama 로컬 AI 모델의 응답을 비교해보세요.</p>
+    </header>
+
+    <!-- 질문 및 모델 선택 -->
+    <section class="input-section">
+
+        <div class="question-box">
+            <label for="question">질문</label>
+            <textarea id="question" placeholder="AI에게 질문을 입력하세요."></textarea>
+        </div>
+
+        <div class="model-selection">
+
+            <!-- 모델 1 -->
+            <div class="model-box">
+                <label for="model1">모델 1</label>
+
+                <select id="model1">
+                    <option value="qwen3:1.7b">qwen3:1.7b</option>
+                    <option value="exaone3.5:2.4b">exaone3.5:2.4b</option>
+                </select>
+            </div>
+
+            <!-- 모델 2 -->
+            <div class="model-box">
+                <label for="model2">모델 2</label>
+
+                <select id="model2">
+                    <option value="exaone3.5:2.4b">exaone3.5:2.4b</option>
+                    <option value="qwen3:1.7b">qwen3:1.7b</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- 실행 버튼 -->
+        <button id="compareBtn">
+            AI 응답 시작
+        </button>
+
+    </section>
+
+    <!-- AI 응답 결과 -->
+    <section class="result-section">
+
+        <!-- 모델 1 결과 -->
+        <div class="result-card">
+
+            <div class="result-header">
+                <h2 id="model1Name">qwen3:1.7b</h2>
+                <span id="time1">응답 시간: -</span>
+            </div>
+
+            <div id="result1" class="result-content">
+                <span class="placeholder">AI 응답이 여기에 표시됩니다.</span>
+            </div>
+        </div>
+
+        <!-- 모델 2 결과 -->
+        <div class="result-card">
+
+            <div class="result-header">
+                <h2 id="model2Name">exaone3.5:2.4b</h2>
+                <span id="time2">응답 시간: -</span>
+            </div>
+
+            <div id="result2" class="result-content">
+                <span class="placeholder">AI 응답이 여기에 표시됩니다.</span>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>

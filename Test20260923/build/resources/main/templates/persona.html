@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI 페르소나 상담사</title>
+
+    <link rel="stylesheet" href="/css/persona.css">
+    <script src="/js/persona.js" defer></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🤖 AI 페르소나 상담사</h1>
+        <p>원하는 역할의 AI에게 고민을 상담해보세요.</p>
+    </header>
+
+    <section class="input-section">
+
+        <div class="role-box">
+            <label for="role">상담 역할</label>
+
+            <input type="text"
+                   id="role"
+                   placeholder="예: 여행 가이드, 면접관, 운동 트레이너">
+        </div>
+
+
+        <div class="question-box">
+            <label for="question">고민</label>
+
+            <textarea id="question"
+                      placeholder="AI에게 상담하고 싶은 고민을 입력하세요."></textarea>
+        </div>
+
+
+        <button id="consultBtn">AI 상담 시작</button>
+
+    </section>
+
+
+    <section class="result-section">
+
+        <div class="result-card">
+
+            <div class="result-header">
+                <h2 id="roleName">AI 상담 결과</h2>
+                <span id="time">응답 시간: -</span>
+            </div>
+
+            <div id="result" class="result-content">
+                <span class="placeholder">
+                    AI 상담 결과가 여기에 표시됩니다.
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>

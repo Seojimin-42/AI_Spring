@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.Test20260930ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-30T09:35:59.962Z" hostname="DESKTOP-MDV1I68" time="3.803">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.Test20260930ApplicationTests" time="0.676"/>
+  <system-out><![CDATA[18:36:00.160 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.Test20260930ApplicationTests]: Test20260930ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:36:00.277 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.Test20260930Application for test class com.example.demo.Test20260930ApplicationTests
+18:36:00.377 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.Test20260930ApplicationTests]: Test20260930ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:36:00.377 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.Test20260930Application for test class com.example.demo.Test20260930ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-30T18:36:00.776+09:00  INFO 10160 --- [test20260930] [    Test worker] c.e.demo.Test20260930ApplicationTests    : Starting Test20260930ApplicationTests using Java 17.0.13 with PID 10160 (started by sjm11 in C:\SpringAI\Workspace\test20260930)
+2026-09-30T18:36:00.777+09:00  INFO 10160 --- [test20260930] [    Test worker] c.e.demo.Test20260930ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-09-30T18:36:03.076+09:00  INFO 10160 --- [test20260930] [    Test worker] c.e.demo.Test20260930ApplicationTests    : Started Test20260930ApplicationTests in 2.598 seconds (process running for 4.103)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
